@@ -29,5 +29,5 @@ func divide(a, b int) int {
 }
 
 func solve(a, b, c int) int {
-	return subtract(divide(a, b), c)
+	return add(multiply(a, b), c)
 }
