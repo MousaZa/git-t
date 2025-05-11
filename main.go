@@ -27,3 +27,7 @@ func divide(a, b int) int {
 	}
 	return a / b
 }
+
+func solve(a, b, c int) int {
+	return add(multiply(a, b), c)
+}
